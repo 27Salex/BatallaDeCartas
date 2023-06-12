@@ -10,7 +10,8 @@ namespace BatallaDeCartas
     {
         static void Main()
         {
-            
+            Baraja mazo = new Baraja();
+            mazo.Barajar();
         }
     }
 }
