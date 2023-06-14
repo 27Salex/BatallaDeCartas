@@ -41,5 +41,9 @@ namespace BatallaDeCartas
 
             Mazo = mazoBarajado;
         }
+        public void QuitarCarta(Carta carta)
+        {
+            mazo.Remove(carta);
+        }
     }
 }
